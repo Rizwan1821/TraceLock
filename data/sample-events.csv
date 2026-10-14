@@ -1,0 +1,11 @@
+timestamp,event_id,username,source_ip,type,success,detail
+2026-06-15T09:00:00Z,evt-001,alice,203.0.113.44,LOGIN,false,invalid password
+2026-06-15T09:01:00Z,evt-002,bob,203.0.113.44,LOGIN,false,invalid password
+2026-06-15T09:02:00Z,evt-003,carol,203.0.113.44,LOGIN,false,invalid password
+2026-06-15T09:03:00Z,evt-004,david,203.0.113.44,LOGIN,false,invalid password
+2026-06-15T10:12:00Z,evt-005,emma,198.51.100.20,LOGIN,false,invalid password
+2026-06-15T10:13:00Z,evt-006,emma,198.51.100.20,LOGIN,false,invalid password
+2026-06-15T10:14:00Z,evt-007,emma,198.51.100.20,LOGIN,false,invalid password
+2026-06-15T10:15:00Z,evt-008,emma,198.51.100.20,LOGIN,true,interactive login succeeded
+2026-06-15T10:19:00Z,evt-009,frank,192.0.2.18,LOGIN,true,normal login
+2026-06-15T10:22:00Z,evt-010,frank,192.0.2.18,MFA_CHALLENGE,true,mfa accepted
